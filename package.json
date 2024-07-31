@@ -1,6 +1,6 @@
 {
   "name": "universal-config-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A universal configuration manager that loads and merges config files from JSON, YAML, and ENV formats with environment-specific overrides.",
   "main": "src/index.js",
   "scripts": {
