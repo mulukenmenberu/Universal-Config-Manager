@@ -8,13 +8,31 @@ A universal configuration manager that loads and merges config files from JSON, 
 npm install universal-config-manager
 ```
 
-## Usage
+## Usage - merge all config files
 
 ```javascript
 const loadConfig = require('universal-config-manager');
 
 const config = loadConfig();
 console.log(config);
+```
+
+## Usage - merge some config files
+
+```javascript
+const loadConfig = require('universal-config-manager');
+
+const config = loadConfig({ files: ['default.json', 'development.yaml'] });
+console.log(config)
+```
+
+## Usage - workspace based merge
+```javascript
+const loadConfig = require('universal-config-manager');
+
+const config = loadConfig({ env: 'production' });
+console.log(config);
+
 ```
 
 ## Configuration Files

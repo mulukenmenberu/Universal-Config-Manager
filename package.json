@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/universal-config-manager.git"
+    "url": "git+https://github.com/mulukenmenberu/Universal-Config-Manager.git"
   },
   "keywords": ["config", "configuration", "manager", "JSON", "YAML", "ENV", "Node.js", "React"],
   "author": "Your Name",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/universal-config-manager/issues"
+    "url": "https://github.com/mulukenmenberu/Universal-Config-Manager/issues"
   },
-  "homepage": "https://github.com/yourusername/universal-config-manager#readme",
+  "homepage": "https://github.com/mulukenmenberu/Universal-Config-Manager#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
     "js-yaml": "^4.1.0",
