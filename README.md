@@ -7,6 +7,21 @@ A universal configuration manager that loads and merges config files from JSON, 
 ```bash
 npm install universal-config-manager
 ```
+## Setup
+### Create Configuration Files
+In the root of your project, create a config directory:
+
+```bash
+mkdir config
+```
+### Add Configuration Files
+Inside the `config` directory, add your configuration files in the following formats:
+
+- JSON (`default.json`, `development.json`, `production.json`) ...
+- YAML (`default.yaml`, `development.yaml`, `production.yaml`) ...
+- ENV (`.env.default`, `.env.development`, `.env.production`) ... 
+
+
 
 ## Usage - merge all config files
 
