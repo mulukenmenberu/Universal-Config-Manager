@@ -1,0 +1,4 @@
+appName: Universal Config Manager
+database:
+  host: localhost
+  port: 5432
